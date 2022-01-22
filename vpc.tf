@@ -17,5 +17,6 @@ resource "aws_vpc" "main" {
 
   tags = {
     Name = "pratik-terraform-poc-vpc"
+    Work = "DevOps"
   }
 }
